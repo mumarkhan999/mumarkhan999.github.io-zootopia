@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>My Own Zoo</title>
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <img src="images/zoo.png" alt=""><span>ZOOTOPIA</span>
+        </div>
+        <div class="navbar show-on-desktop">
+            <ul class="nav-links">
+                <a href=""><li class="nav-link">HOME</li></a>
+                <a href=""><li class="nav-link">ABOUT</li></a>
+                <a href=""><li class="nav-link">CONTACT</li></a>
+                <a href=""><li class="nav-link">EVENTS</li></a>
+                <a href=""><li class="nav-link">LOGIN</li></a>
+                <a href=""><li class="nav-link">REGISTER</li></a>
+            </ul>
+        </div>
+
+        <div class="show-on-mobile">
+            <img src="images/bars-solid.svg" alt="dropdown">
+        </div>
+
+    </header>
+    <section class="main-section">
+        <img src="images/animals gettogether.svg" alt="">
+    </section>
+    <section class="gif-section">
+        <img src="images/lion-fight.webp" alt="">
+        <img src="images/lioness.webp" alt="">
+        <img src="images/swiming.webp" alt="">
+    </section>
+    <section class="gallery-section">
+        <img src="images/jaguar.jpeg" alt="">
+        <img src="images/horses.jpeg" alt="">
+        <img src="images/fox.jpeg" alt="">
+        <img src="images/jaguar-on-mountain.jpeg" alt="">
+        <img src="images/zebra.jpeg" alt="">
+        <img src="images/reinder.jpeg" alt="">
+        <img src="images/roaring-lion.jpg" alt="">
+        <img src="images/turtle-swimming.jpeg" alt="">
+        <img src="images/white-wolf.jpeg" alt="">
+        <img src="images/panda-lite.jpg" alt="">
+        <img src="images/elephant.jpeg" alt="">
+    </section>
+    <footer>
+        <section class="footer-section scroll-section">
+            <div class="social-section">
+                <a href="https://www.facebook.com/m.umarkhan999"><img src="images/facebook-brands.svg" alt=""></a>
+                <a href="https://github.com/mumarkhan999"><img src="images/github-square-brands.svg" alt=""></a>
+                <a href="https://www.youtube.com/channel/UCNBcMJeg1VXx9-7g7n7hO_Q?view_as=subscriber"><img src="images/youtube-brands.svg" alt=""></a>
+            </div>
+            <h3>Muhammad Umar Khan</h3>
+            <h3>m.umarkhan999@gmail.com</h3>
+            <h3>+92-3204160988</h3>
+        </section>
+    </footer>
+
+    <script>
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+            document.getElementById("header").style.top = "-80px";
+        } else {
+            document.getElementById("header").style.top = "0px";
+        }
+        }
+    </script>
+</body>
+</html>
